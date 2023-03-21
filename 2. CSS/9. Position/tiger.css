@@ -1,0 +1,79 @@
+@import url(../../common.css);
+body{
+    background: #666;
+}
+h1{
+
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+    
+    font-weight: bold;
+    background: darkblue;
+}
+h1{
+    color: yellow;
+}
+h1 strong{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+h1 span{
+    color: yellow;
+    font-size: 25px;
+}
+h1 em{
+    color: white;
+    font-size:40px
+}
+
+.container .menu{
+    width: 200px;
+    height: 600px;
+    background: rgb(176, 176, 176);
+    padding: 20px;
+    line-height: 2;
+    text-decoration: underline;
+    float: left;
+}
+.container .menu li a:hover{
+    color: aqua;
+
+}
+.content{
+    width: 600px;
+    height: 600px;
+    background: white;
+    text-align: justify;
+    
+    line-height: 2;
+    float: left;
+    font-size: 10px;
+    
+}
+.content h2{
+    
+    
+    background: red;
+    padding: 10px;
+    color: yellow;
+    font-family: cursive;
+    font-size: 20px;
+    
+}
+.content p{
+    width: 600px;
+        padding: 20px;
+        font-size: 11px;
+}
+address{
+    width: 800px;
+    padding: 10px;
+    background: gainsboro;
+}
+
+#wrapper{
+    width: 800px;
+    margin: 0px auto 0;
+}
