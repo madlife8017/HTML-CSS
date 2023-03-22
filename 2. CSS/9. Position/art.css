@@ -1,0 +1,135 @@
+@import url(../../common.css);
+
+#wrapper{
+    width: 1000px;
+    margin: 0px auto 0;
+}
+body{
+    background: rgb(177, 177, 177);
+}
+header h1{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    width: 1000px;
+    background: orange;
+    text-align: center;
+    line-height: 0.3;
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+
+}
+header h1 span{
+    font-size: 16px;
+    
+    text-align: center;
+    padding-bottom: 00px;
+    
+}
+.stit{
+    width: 1000px;
+    background: rgb(210, 210, 210);
+    text-align: center;
+    font-size: 12px;
+    padding: 2px;
+}
+.side-menu{
+    width: 200px;
+    height: 766px;
+    background: white;
+    float: left;
+
+}
+.side-menu h3{
+    background: rgb(131, 0, 0);
+    color: white;
+    padding: 10px;
+    letter-spacing: 3px;
+}
+.side-menu ul {
+    padding: 10px;
+    font-weight: bold;
+    line-height: 3;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.side-menu ul li:hover{
+
+    border-bottom: 3px dotted blue;
+
+}
+.main-content{
+    width: 600px;
+    
+    background: rgb(208, 208, 208);
+    padding: 10px;
+    padding-top: 20px;
+    float: left;
+    
+}
+.main-content .title{
+    
+    background: rgb(21, 130, 154);
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+
+    
+}
+.main-content .artist{
+    font-weight: bold;
+    
+    padding: 10px;
+    
+    
+}
+.main-content .detail{
+    font-size: 13px;
+    padding: 10px;
+    margin-bottom: 10px;
+   
+    
+}
+
+.banner{
+    width: 200px;
+    height: 766px;
+    background: white;
+    padding: 10px;
+    padding-top: 20px;
+    float: left;
+}
+address{
+    width: 1000px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background: rgb(0, 0, 123);
+    padding: 10px;
+}
+.banner h3{
+    line-height: 2;
+    font-weight: bold;
+}
+.all{
+    color: rgb(179, 177, 177);
+    text-decoration: underline;
+    
+}
+.love{
+    color: orange;
+    text-decoration: underline;
+}
+.link li a{
+    font-size: 13px;
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+.link li span{
+    font-size: 10px;
+    
+
+}
